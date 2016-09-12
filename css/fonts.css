@@ -1,0 +1,12 @@
+
+/*FONTS*/
+
+@font-face {
+    font-family: "Lato"; /* Имя шрифта */
+    src: url(fonts/Lato.ttf);
+    font-family: "Social Nets";
+    src: url(../fonts/social-nets/icomoon.svg);
+    src: url(../fonts/social-nets/icomoon.ttf);
+    src: url(../fonts/social-nets/icomoon.eot);
+    src: url(../fonts/social-nets/icomoon.woff);
+}
