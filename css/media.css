@@ -12,7 +12,10 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
+    .collapse {
+        display: none;
+    }
     .main-page {
         height: 100%;
     }
@@ -22,17 +25,23 @@
     .main-page-title h1 {
         font-size: 30px;
     }
-    .h1-line {
+    .title-line {
         margin-top: 30px;
     }
     .main-page-title p {
         font-size: 18px;
     }
+    .main-page-title img {
+        width: 80%;
+        margin: 30px auto 20px;
+    }
     .btn-link {
-        display: none;}
+        display: none;
+    }
     .header-nav {
         position: absolute;
         width: 100%;
+        padding-top: 0;
         z-index: 999;
     }
     .menu {
@@ -48,9 +57,6 @@
     .contacts {
         height: 100%;
     }
-    .header-nav {
-        padding-top: 0;
-    }
     .gallery-nav {
         background: #ccc;
         opacity: 0.9;
@@ -79,8 +85,8 @@
         margin: 30px auto;
         padding-top: 55px;
     }
-    .h2-line {
-        margin-top: 21px;
+    .header-line {
+        margin-bottom: 21px;
     }
     .photo-circle {
         text-align: center;
@@ -107,6 +113,13 @@
     }
     .footer-menu li a {
         font-size: 15px;
+    }
+    .item-photo {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .item-description {
+        margin-top: 250px;
     }
 }
 
@@ -121,7 +134,7 @@
     .main-page-title h1 {
         font-size: 30px;
     }
-    .h1-line {
+    .title-line {
         margin-top: 30px;
     }
     .main-page-title p {
@@ -132,27 +145,26 @@
         margin: 30px auto 20px;
     }
     .btn-link {
-        display: none;}
-.header-nav {
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-}
+        display: none;
+    }
+    .header-nav {
+        position: absolute;
+        width: 100%;
+        padding-top: 0;
+        z-index: 999;
+    }
     .menu {
         text-align: center;
         padding: 0;
     }
     .menu li {
     display: block;
-}
+    }
     .menu li a {
         font-size: 20px;
     }
-.contacts {
-    height: 100%;
-}
-    .header-nav {
-        padding-top: 0;
+    .contacts {
+        height: 100%;
     }
     .gallery-nav {
         background: #ccc;
@@ -182,8 +194,8 @@
         margin: 30px auto;
         padding-top: 55px;
     }
-    .h2-line {
-        margin-top: 21px;
+    .header-line {
+        margin-bottom: 21px;
     }
     .photo-circle {
         text-align: center;
@@ -210,6 +222,13 @@
     }
     .footer-menu li a {
         font-size: 15px;
+    }
+    .item-photo {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .item-description {
+        margin-top: 250px;
     }
 }
 
@@ -224,7 +243,7 @@
     .main-page-title h1 {
         font-size: 30px;
     }
-    .h1-line {
+    .title-line {
         margin-top: 30px;
     }
     .main-page-title p {
@@ -235,27 +254,26 @@
         margin: 30px auto 20px;
     }
     .btn-link {
-        display: none;}
-.header-nav {
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-}
+        display: none;
+    }
+    .header-nav {
+        position: absolute;
+        width: 100%;
+        padding-top: 0;
+        z-index: 999;
+    }
     .menu {
         text-align: center;
         padding: 0;
     }
     .menu li {
     display: block;
-}
+    }
     .menu li a {
         font-size: 20px;
     }
-.contacts {
-    height: 100%;
-}
-    .header-nav {
-        padding-top: 0;
+    .contacts {
+        height: 100%;
     }
     .gallery-nav {
         background: #ccc;
@@ -285,8 +303,8 @@
         margin: 30px auto;
         padding-top: 55px;
     }
-    .h2-line {
-        margin-top: 21px;
+    .header-line {
+        margin-bottom: 21px;
     }
     .photo-circle {
         text-align: center;
@@ -314,32 +332,39 @@
     .footer-menu li a {
         font-size: 15px;
     }
+    .item-photo {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .item-description {
+        margin-top: 250px;
+    }
 }
 
-/*==========  Mobile First Method  ==========*/
+/*!*==========  Mobile First Method  ==========*!*/
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+/*!* Custom, iPhone Retina *!*/
+/*@media only screen and (min-width : 320px) {*/
 
-}
+/*}*/
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+/*!* Extra Small Devices, Phones *!*/
+/*@media only screen and (min-width : 480px) {*/
 
-}
+/*}*/
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+/*!* Small Devices, Tablets *!*/
+/*@media only screen and (min-width : 768px) {*/
 
-}
+/*}*/
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+/*!* Medium Devices, Desktops *!*/
+/*@media only screen and (min-width : 992px) {*/
 
-}
+/*}*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+/*!* Large Devices, Wide Screens *!*/
+/*@media only screen and (min-width : 1200px) {*/
 
-}
+/*}*/
 
