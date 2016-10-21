@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" href="photoswipe/dist/default-skin/default-skin.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+<div class="gallery">
+    <nav class="header-nav">
+        <div class="container gallery-nav">
+            <div class="row">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed menu-btn" data-toggle="collapse" data-target="#top-menu">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="top-menu">
+                    <ul class="menu">
+                        <li><a href="index.html#about-me">обо мне</a></li>
+                        <li><a href="gallery.html">галерея</a></li>
+                        <li><a href="contacts.html">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-line-dark"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <div class="title gallery-header">
+                    <h2>
+                        галерея
+                        <div class="h2-line"></div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--*/ГАЛЕРЕЯ ИЗОБРАЖЕНИЙ/*-->
+
+    <div class="flex-gallery-photos infinite-container" id="gallery-photos">
+        <figure class="infinite-item">
+            <a href="image/gallery/10.JPG" data-caption="<a href = 'items/item10.html'>Подробное описание</a>" data-width="478" data-height="518">
+                <img src="image/gallery/10.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/11.JPG" data-caption="<a href = 'items/item11.html'>Подробное описание</a>" data-width="612" data-height="816">
+                <img src="image/gallery/11.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/12.JPG" data-caption="<a href = 'items/item12.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/12.JPG" alt="Image descriptio15">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/13.JPG" data-caption="<a href = 'items/item13.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/13.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/14.JPG" data-caption="<a href = 'items/item14.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/14.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/15.JPG" data-caption="<a href = 'items/item15.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/15.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/16.JPG" data-caption="<a href = 'items/item16.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/16.JPG" alt="Image description">
+            </a>
+        </figure>
+        <figure class="infinite-item">
+            <a href="image/gallery/17.JPG" data-caption="<a href = 'items/item17.html'>Подробное описание</a>" data-width="640" data-height="640">
+                <img src="image/gallery/17.JPG"alt="Image description">
+            </a>
+        </figure>
+    </div>
+    <!--линкуем   -->
+
+    <a class="infinite-more-link" href="gallery2.html"></a>
+
+</div>
+<footer>
+    <nav class="footer-nav">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-footer">
+                    <ul class="footer-menu">
+                        <li><a href="index.html#about-me">обо мне</a></li>
+                        <li><a href="gallery.html">галерея</a></li>
+                        <li><a href="contacts.html">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</footer>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <div class="pswp__container">
+            <!-- don't modify these 3 pswp__item elements, data is added later on -->
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="photoswipe/dist/photoswipe.min.js"></script>
+<script src="photoswipe/dist/photoswipe-ui-default.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/infinite.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
